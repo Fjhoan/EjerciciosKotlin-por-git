@@ -56,7 +56,7 @@ fun main(args: Array<String>) {
                 optionUser = 0
                 while(optionUser != 99) {
                     optionUser = 0
-                    println("Ingrese la opción deseada\n1.Multiplos de 3 hasta 100\n2.Números impares hasta el 100\n3.Números Impares hasta el 100\n4.Cuadrados de los numeros hasta el 30\n5.Suma de los cuadrados hasta el 100\n6.Rango de 2 números que digite el usuario\n7.Suma de los número digitados hasta que digite cero\n99.Salir")
+                    println("Ingrese la opción deseada\n1.Multiplos de 3 hasta 100\n2.Números impares hasta el 100\n3.Números pares hasta el 100\n4.Cuadrados de los numeros hasta el 30\n5.Suma de los cuadrados hasta el 100\n6.Rango de 2 números que digite el usuario\n7.Suma de los número digitados hasta que digite cero\n99.Salir")
                     optionUser = readLine()!!.toInt()
                     when (optionUser){
                         1 -> example.multipleOfThree()
